@@ -1,3 +1,5 @@
+// 拦截对象属性的读取
+
 const a = { name: "san" };
 
 const proxy = new Proxy(a, {

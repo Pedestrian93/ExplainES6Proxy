@@ -1,3 +1,4 @@
+// 拦截propKey in proxy的操作
 const a = { name: "san" };
 
 const proxy = new Proxy(a, {

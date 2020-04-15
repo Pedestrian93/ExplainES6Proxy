@@ -1,3 +1,4 @@
+// 拦截对象属性的设置
 const a = { name: "san" };
 
 const proxy = new Proxy(a, {
